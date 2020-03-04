@@ -1,0 +1,25 @@
+{
+  "name": "parcel-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/release/index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build/debug",
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "parcel": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.3"
+  }
+}
